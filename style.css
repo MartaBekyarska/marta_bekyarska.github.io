@@ -1,0 +1,58 @@
+body {
+	/*background-image: url("images/tube.jpg");*/
+	background-color: rgb(235, 235, 235);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h1 {
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+	text-align: left;
+	font-size: 25px;
+	font-family: Georgia, Arial;
+	padding: 0; 
+	margin: 0;
+}
+/*p {
+	font-family: times, sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	animation-delay: 1s;
+	margin-top: 0px;
+	border-bottom: 1px solid;
+	color: rgb(91, 98, 109);
+}
+*/
+
+
+img {	
+	
+	margin-left: 40px;
+	margin-right: auto;
+	margin-top: 0;
+	height: auto;
+	width: 30%;
+	box-shadow: 10px 10px 5px grey;
+}
+footer  {
+	color: grey;
+	text-align: center;
+	vertical-align: bottom;
+	font-size: 25px;
+	position: absolute;
+	left: 0; right: 0; bottom: 0;
+
+
+}
+
+.navbar-brand {
+	height: 100px;
+	padding-bottom: 5px;
+	padding-top: 55px;
+	font-size: 36px;
+	line-height: 40px;
+}
+
+
+
+

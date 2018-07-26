@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1 id="title">Contact form</h1>
+    <p id="description">Please enter your details below:</p>
+    <form id="survey-form">
+      <div class="rowTab">
+        <div class="labels">
+          <label id="name-label" for="name">*Name: </label></div>
+      <div class="rightTab"><input autofocus type="text" name="name" id="name" class="input-field" required placeholder="Enter your full name"></div></div><br>
+      <div class="rowTab">
+        <div class="labels">
+          <label id="email-label" for="email">*Email: </label></div>
+          <div class="rightTab"><input type="text" name="email" id="email" class="input-field" required placeholder="Enter your email"></div></div><br>
+    
+ <div class="rowTab">
+   <div class="labels">
+     <label for="currentPos">What is your status? </label></div>
+   <div class="rightTab">
+     <select id="dropdown" name="currentPos" class="dropdown">
+       <option disabled value>Select an option</option>
+       <option value="recruiter">Recruiter</option>
+       <option value="hiring manager">Hiring Manager</option>
+       <option value="employer">Employer</option>
+       <option value="prefer no">Prefer not to say</option>
+     </select>
+   </div>
+      </div><br>
+      <div class="labels">
+        <label for="userRating">* How would you describe my website?</label>
+        <div class="rightTab">
+          <ul style="list style: none;">
+            <li class="radio">
+              <label><input name="radio-buttons" value=1 type="radio" class="userRatings">Very good</label></li>
+            <li class="radio">
+              <label><input name="radio-buttons" value=2 type="radio" class="userRatings">Good</label></li>
+            <li class="radio">
+              <label><input name="radio-buttons" value=3 type="radio" class="userRatings">Needs improvement</label></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="rowTab">
+        <div class="labels">
+          <label for="message">Message: 
+          </label></div>
+        <div class="rightTab">
+          <textarea id="message" class="input field" style="height:50px;resize:vertical; name="message" placeholder="Enter your message here..."></textarea>
+              </div>
+                </div>
+                <button id="submit" type="submit">Submit</button>
+      
+      
+      
+      
+  </head>
+  <body>
+  </body>
+</html>

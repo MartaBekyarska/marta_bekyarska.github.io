@@ -1,59 +1,68 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <h1 id="title">Contact form</h1>
+<head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <h1 class="navbar-brand">MARTA BEKYARSKA.</h1>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Resume</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+</head>
+<body>
+  <div class="container-fluid" id="contactForm">
+    <h1 id="title">Get in touch</h1>
     <p id="description">Please enter your details below:</p>
-    <form id="survey-form">
+    <form action="/action_page.php" id="survey-form">
       <div class="rowTab">
         <div class="labels">
           <label id="name-label" for="name">*Name: </label></div>
-      <div class="rightTab"><input autofocus type="text" name="name" id="name" class="input-field" required placeholder="Enter your full name"></div></div><br>
-      <div class="rowTab">
-        <div class="labels">
-          <label id="email-label" for="email">*Email: </label></div>
-          <div class="rightTab"><input type="text" name="email" id="email" class="input-field" required placeholder="Enter your email"></div></div><br>
-    
- <div class="rowTab">
-   <div class="labels">
-     <label for="currentPos">What is your status? </label></div>
-   <div class="rightTab">
-     <select id="dropdown" name="currentPos" class="dropdown">
-       <option disabled value>Select an option</option>
-       <option value="recruiter">Recruiter</option>
-       <option value="hiring manager">Hiring Manager</option>
-       <option value="employer">Employer</option>
-       <option value="prefer no">Prefer not to say</option>
-     </select>
-   </div>
-      </div><br>
-      <div class="labels">
-        <label for="userRating">* How would you describe my website?</label>
-        <div class="rightTab">
-          <ul style="list style: none;">
-            <li class="radio">
-              <label><input name="radio-buttons" value=1 type="radio" class="userRatings">Very good</label></li>
-            <li class="radio">
-              <label><input name="radio-buttons" value=2 type="radio" class="userRatings">Good</label></li>
-            <li class="radio">
-              <label><input name="radio-buttons" value=3 type="radio" class="userRatings">Needs improvement</label></li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="rowTab">
-        <div class="labels">
-          <label for="message">Message: 
-          </label></div>
-        <div class="rightTab">
-          <textarea id="message" class="input field" style="height:50px;resize:vertical; name="message" placeholder="Enter your message here..."></textarea>
-              </div>
+          <div class="rightTab"><input autofocus type="text" name="name" id="name" class="input-field" required placeholder="Enter your full name">
+          </div>
+        </div><br>
+        <div class="rowTab">
+          <div class="labels">
+            <label id="email-label" for="email">*Email: </label></div>
+            <div class="rightTab"><input type="text" name="email" id="email" class="input-field" required placeholder="Enter your email"></div></div><br>
+
+            <div class="rowTab">
+             <div class="labels">
+               <label for="currentPos">What is your status? </label></div>
+               <div class="rightTab">
+                 <select id="dropdown" name="currentPos" class="dropdown">
+                   <option value>Select an option</option>
+                   <option value="recruiter">Recruiter</option>
+                   <option value="hiring manager">Hiring Manager</option>
+                   <option value="employer">Employer</option>
+                   <option value="prefer no">Prefer not to say</option>
+                 </select>
+               </div>
+             </div><br>
+             <div class="rowTab">
+              <div class="labels">
+                <label for="message">Message: 
+                </label></div>
+                <div class="rightTab">
+                  <textarea id="message" class="input field" style="height:150px;resize:vertical; name="message" placeholder="Enter your message here..."></textarea>
                 </div>
-                <button id="submit" type="submit">Submit</button>
-      
-      
-      
-      
-  </head>
-  <body>
-  </body>
-</html>
+              </div>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </body>
+      </head>
+      </html>

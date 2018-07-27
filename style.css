@@ -6,21 +6,22 @@ body {
 	font-family: Arial, Helvetica;
 }
 h1 {
-	color: rgb(255, 255, 255);
-	text-decoration: underline;
+	
 	text-align: left;
 	font-size: 25px;
 	font-family: Georgia, Arial;
-	padding: 0; 
-	margin: 0;
 }
 
 .navbar-brand {
 	height: 100px;
 	padding-bottom: 5px;
 	padding-top: 55px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	font-size: 36px;
 	line-height: 40px;
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
 }
 .nav {
 	padding-top: 50px;
@@ -75,6 +76,7 @@ footer  {
 	margin-left: 200px;
 	margin-right: 200px;
 	margin-top: 25px;
+	margin-bottom: 25px;
 	background-image: url("images/shards_pattern.jpg");
 
 }

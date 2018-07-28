@@ -29,6 +29,10 @@ h1 {
 	padding-left: 40px;
 }
 
+.vertical-nav-background {
+	background-color: #080808;
+}
+
 a {
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -54,7 +58,7 @@ img {
 	/*box-shadow: 10px 10px 5px grey;*/
 }
 #github{
-	color: black;
+	color:black;
 }
 .quote {
 	font-family: "Times", "Arial", sans-serif;

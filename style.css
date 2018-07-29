@@ -5,6 +5,7 @@ body {
 	background-repeat: no-repeat;
 	font-family: Arial, Helvetica;
 }
+
 h1 {
 	
 	text-align: left;
@@ -12,7 +13,28 @@ h1 {
 	font-family: Georgia, Arial;
 }
 
-.navbar-brand {
+
+.nav {
+	padding-top: 0px;
+	padding-right: 40px;
+	padding-left: 40px;
+
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:hover, 
+.navbar-inverse .navbar-nav>.active>a:focus {
+	padding-top: 50px;
+	color: black;
+	background-color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+	padding-top: 50px;
+
+}
+
+.navbar-inverse .navbar-brand {
+	color: #887;
 	height: 100px;
 	padding-bottom: 5px;
 	padding-top: 55px;
@@ -20,18 +42,23 @@ h1 {
 	margin-bottom: 0px;
 	font-size: 36px;
 	line-height: 40px;
-	color: rgb(255, 255, 255);
 	text-decoration: underline;
 }
-.nav {
-	padding-top: 40px;
-	padding-right: 40px;
-	padding-left: 40px;
+#home:hover {
+	background-color: #000;
+}
+#portfolio:hover {
+	background-color: #fff;
+	color: black;
 }
 
-a {
-	margin-top: 0px;
-	margin-bottom: 0px;
+#resume:hover {
+	background-color: #000;
+	color: white;
+}
+#contact:hover {
+	background-color: #fff;
+	color: black;
 }
 .sticker{
 	display: block;
@@ -55,8 +82,21 @@ img {
 }
 #github{
 	color: black;
+	font-size: 40px;
+	
 }
-.quote {
+#linkedin {
+
+	color: #0274B3;
+	font-size: 40px;
+
+}
+span {
+	display: block;
+	justify-content: center;
+	text-align: center;
+}
+q {
 	font-family: "Times", "Arial", sans-serif;
 	font-size: 20px;
 	font-weight: bold;
@@ -66,13 +106,14 @@ img {
 	font-style: italic;
 	color: #e0dc0b;
 }
-footer  {
-	color: grey;
-	text-align: center;
-	vertical-align: bottom;
-	font-size: 25px;
+.footer  {
+	background-color: #222;
+	vertical-align: center;
 	position: absolute;
-	left: 0; right: 0; bottom: 0;
+	left: 0; 
+	right: 0; 
+	bottom: 0;
+	height: 70px;
 
 
 }

@@ -6,7 +6,7 @@ body {
 	font-family: Arial, Helvetica;
 }
 
-h1 {
+.navbar-brand {
 	
 	text-align: left;
 	font-size: 25px;
@@ -28,6 +28,7 @@ h1 {
 	color: black;
 	background-color: white;
 }
+
 .navbar-inverse .navbar-nav>li>a {
 	padding-top: 50px;
 
@@ -44,9 +45,11 @@ h1 {
 	line-height: 40px;
 	text-decoration: underline;
 }
+
 #home:hover {
 	background-color: #000;
 }
+
 #portfolio:hover {
 	background-color: #fff;
 	color: black;
@@ -56,10 +59,12 @@ h1 {
 	background-color: #000;
 	color: white;
 }
+
 #contact:hover {
 	background-color: #fff;
 	color: black;
 }
+
 .sticker{
 	display: block;
 	border-radius: 0px;
@@ -72,7 +77,6 @@ h1 {
 }
 
 img {	
-	
 	margin-left: 0;
 	margin-right: auto;
 	margin-top: 0;
@@ -80,21 +84,29 @@ img {
 	width: 70%;
 	/*box-shadow: 10px 10px 5px grey;*/
 }
+
 #github{
 	color: black;
 	font-size: 40px;
-	
+	padding-right: 10px;
+}
+#github:hover{
+	opacity: 0.5;
+}
+#linkedin:hover{
+	opacity: 0.5;
 }
 #linkedin {
-
 	color: #0274B3;
 	font-size: 40px;
+	padding-left: 10px;
 
 }
-span {
+.links {
 	display: block;
 	justify-content: center;
 	text-align: center;
+	padding-top: 20px;
 }
 q {
 	font-family: "Times", "Arial", sans-serif;
@@ -102,10 +114,12 @@ q {
 	font-weight: bold;
 	color: #e0dc0b;
 }
+
 .author {
 	font-style: italic;
 	color: #e0dc0b;
 }
+
 .footer  {
 	background-color: #222;
 	vertical-align: center;
@@ -113,9 +127,7 @@ q {
 	left: 0; 
 	right: 0; 
 	bottom: 0;
-	height: 70px;
-
-
+	height: 80px;
 }
 
 #contactForm {
@@ -135,9 +147,10 @@ q {
 	text-align: center;
 	color: black;
 }
+
 input[type=submit] {
-	background-color: #c62382;
-	color: white;
+	background-color: #e0dc0b;
+	color: black;
 	padding: 12px 20px;
 	margin-bottom: 10px;
 	border: none;
@@ -156,6 +169,14 @@ input[type=text], select, textarea {
 	margin-top: 6px;
 	margin-bottom: 16px;
 	resize: vertical;
+}
+.works {
+	display: flex;
+	justify-content: center;
+	font-family: Georgia, courier; 
+	font-size: 40px;
+	font-style: bold;
+	color: #e0dc0b;
 }
 
 

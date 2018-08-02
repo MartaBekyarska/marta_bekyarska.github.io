@@ -40,21 +40,7 @@
           <div class="labels">
             <label id="email-label" for="email">*Email: </label></div>
             <div class="rightTab"><input type="text" name="email" id="email" class="input-field" required placeholder="Enter your email"></div></div><br>
-
             <div class="rowTab">
-             <div class="labels">
-               <label for="currentPos">What is your status? </label></div>
-               <div class="rightTab">
-                 <select id="dropdown" name="currentPos" class="dropdown">
-                   <option value>Select an option</option>
-                   <option value="recruiter">Recruiter</option>
-                   <option value="hiring manager">Hiring Manager</option>
-                   <option value="employer">Employer</option>
-                   <option value="prefer no">Prefer not to say</option>
-                 </select>
-               </div>
-             </div><br>
-             <div class="rowTab">
               <div class="labels">
                 <label for="message">Message: 
                 </label></div>
@@ -62,7 +48,12 @@
                   <textarea id="message" class="input field" style="height:150px;resize:vertical; name="message" placeholder="Enter your message here..."></textarea>
                 </div>
               </div>
-              <input type="submit" value="Submit">
+              <input type="submit" value="Submit" onclick="myFunction()">
+              <script>
+                function myFunction() {
+                  alert("Contact form hasn't been linked up yet! Try using a traditional form of contacting me :)");
+                }
+              </script>
             </form>
           </div>
         </body>

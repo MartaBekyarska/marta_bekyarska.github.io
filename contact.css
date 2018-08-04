@@ -1,0 +1,13 @@
+#home:hover {
+	background-color: #fff;
+}
+
+#portfolio:hover {
+	background-color: #000;
+	color: black;
+}
+
+#resume:hover {
+	background-color: #fff;
+	color: white;
+}

@@ -46,44 +46,16 @@ body {
 	text-decoration: underline;
 }
 
-#home:hover {
-	background-color: #000;
-}
-
-#portfolio:hover {
-	background-color: #fff;
-	color: black;
-}
-
-#resume:hover {
-	background-color: #000;
-	color: white;
-}
 
 #contact:hover {
 	background-color: #fff;
 	color: black;
 }
 
-.sticker{
-	display: block;
-	border-radius: 0px;
-	border: 5px black;
-	margin: 80px;
-}
-
-.intro {
+p {
 	font-family: Georgia, sans-serif;
 }
 
-img {	
-	margin-left: 0;
-	margin-right: auto;
-	margin-top: 0;
-	height: auto;
-	width: 70%;
-	/*box-shadow: 10px 10px 5px grey;*/
-}
 
 #github{
 	color: black;
@@ -108,11 +80,15 @@ img {
 	text-align: center;
 	padding-top: 20px;
 }
+#last_para_intro {
+	margin-bottom: 50px;
+}
 q {
 	font-family: "Times", "Arial", sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 	color: #e0dc0b;
+
 }
 
 .author {

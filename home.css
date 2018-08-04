@@ -1,0 +1,21 @@
+#home:hover {
+	background-color: #fff;
+}
+
+#portfolio:hover {
+	background-color: #000;
+	color: black;
+}
+
+#resume:hover {
+	background-color: #fff;
+	color: white;
+}
+img {	
+	margin-left: 0;
+	margin-right: auto;
+	margin-top: 0;
+	height: auto;
+	width: 70%;
+	/*box-shadow: 10px 10px 5px grey;*/
+}

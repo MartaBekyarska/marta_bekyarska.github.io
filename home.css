@@ -11,6 +11,10 @@
 	background-color: #fff;
 	color: white;
 }
+#contact:hover {
+	background-color: #fff;
+	color: black;
+}
 img {	
 	margin-left: 0;
 	margin-right: auto;
@@ -18,4 +22,19 @@ img {
 	height: auto;
 	width: 70%;
 	/*box-shadow: 10px 10px 5px grey;*/
+}
+#last_para_intro {
+	margin-bottom: 50px;
+}
+q {
+	font-family: "Times", "Arial", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #e0dc0b;
+
+}
+
+.author {
+	font-style: italic;
+	color: #e0dc0b;
 }

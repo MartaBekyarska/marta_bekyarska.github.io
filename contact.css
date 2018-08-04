@@ -11,3 +11,47 @@
 	background-color: #fff;
 	color: white;
 }
+#contact:hover {
+	background-color: #fff;
+	color: black;
+}
+#contactForm {
+	text-align: center;
+	border: 1px solid #666666;
+	border-radius: 4px;
+	box-shadow: 20px 20px 50px 10px grey;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-image: url("images/shards_pattern.jpg");
+
+}
+
+#title {
+	text-align: center;
+	color: black;
+}
+
+input[type=submit] {
+	background-color: #e0dc0b;
+	color: black;
+	padding: 12px 20px;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover{
+	opacity: 0.9;
+}
+input[type=text], select, textarea {
+	width: 30%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}

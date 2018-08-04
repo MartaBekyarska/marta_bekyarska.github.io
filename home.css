@@ -4,16 +4,16 @@
 
 #portfolio:hover {
 	background-color: #000;
-	color: black;
+	color: white;
 }
 
 #resume:hover {
 	background-color: #fff;
-	color: white;
+	color: black;
 }
 #contact:hover {
-	background-color: #fff;
-	color: black;
+	background-color: #000;
+	color: white;
 }
 img {	
 	margin-left: 0;

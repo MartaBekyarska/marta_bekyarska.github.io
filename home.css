@@ -16,15 +16,22 @@
 	color: white;
 }
 img {	
-	margin-left: 0;
+	margin-left: 50px;
 	margin-right: auto;
 	margin-top: 30px;
 	height: auto;
 	width: 70%;
 	/*box-shadow: 10px 10px 5px grey;*/
 }
+#email {
+	margin-left: 50px;
+	font-size: 18px;
+}
 #first_para_intro {
 	margin-top: 30px;
+	padding-right: 80px;
+	font-size: 20px;
+	text-align: justify;
 }
 #last_para_intro {
 	margin-bottom: 50px;

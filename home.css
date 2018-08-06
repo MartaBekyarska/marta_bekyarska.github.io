@@ -29,7 +29,7 @@ img {
 }
 #first_para_intro {
 	margin-top: 30px;
-	padding-right: 80px;
+	padding-right: 150px;
 	font-size: 20px;
 	text-align: justify;
 }
@@ -38,7 +38,7 @@ img {
 }
 q {
 	font-family: "Times", "Arial", sans-serif;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: bold;
 	color: #e0dc0b;
 

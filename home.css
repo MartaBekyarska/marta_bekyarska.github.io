@@ -32,6 +32,7 @@ img {
 	padding-right: 150px;
 	font-size: 20px;
 	text-align: justify;
+	color: white;
 }
 #last_para_intro {
 	margin-bottom: 50px;
@@ -40,12 +41,12 @@ q {
 	font-family: "Times", "Arial", sans-serif;
 	font-size: 25px;
 	font-weight: bold;
-	color: #e0dc0b;
+	color: #e59f09;
 
 }
 
 .author {
 	font-style: italic;
-	color: #e0dc0b;
+	color: #e59f09;
 	text-align: right;
 }

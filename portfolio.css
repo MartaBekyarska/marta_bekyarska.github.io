@@ -21,7 +21,7 @@
 	font-family: Georgia, courier; 
 	font-size: 40px;
 	font-style: bold;
-	color: #e0dc0b;
+	color: #e59f09;
 }
 
 ol.works-list {
@@ -30,6 +30,7 @@ ol.works-list {
 	padding-right: 200px;
 	padding-left: 150px;
 	font-size: 20px;
+	color: white;
 	text-align: justify;
 	padding-right: 160px;
 

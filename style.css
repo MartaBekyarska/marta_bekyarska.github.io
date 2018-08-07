@@ -5,17 +5,20 @@ html{
 
 body {
 	/*background-image: url("images/tube.jpg");*/
-	background-color: rgb(235, 235, 235);
+	background-color: black;
 	background-size: cover;
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	font-family: Arial, Helvetica;
 }
-
+#navigation {
+	background-color: #010521;
+}
 .navbar-brand {
 	
 	text-align: left;
 	font-size: 25px;
 	font-family: Georgia, Arial;
+	background-color: #010521;
 }
 
 
@@ -23,6 +26,7 @@ body {
 	padding-top: 0px;
 	padding-right: 40px;
 	padding-left: 40px;
+
 
 }
 
@@ -36,11 +40,12 @@ body {
 
 .navbar-inverse .navbar-nav>li>a {
 	padding-top: 50px;
+	background-color: #010521;
 
 }
 
 .navbar-inverse .navbar-brand {
-	color: #887;
+	color: red;
 	height: 100px;
 	padding-bottom: 5px;
 	padding-top: 55px;
@@ -49,6 +54,7 @@ body {
 	font-size: 36px;
 	line-height: 40px;
 	text-decoration: underline;
+	background-color: #010521;
 }
 
 p {
@@ -85,7 +91,7 @@ p {
 	padding-bottom: 100px;
 }
 .footer  {
-	background-color: #222;
+	background-color: #010521;
 	position: absolute;
 	left: 0; 
 	right: 0; 

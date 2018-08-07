@@ -81,15 +81,17 @@ p {
 	text-align: center;
 	padding-top: 20px;
 }
-
+.sticker {
+	padding-bottom: 100px;
+}
 .footer  {
 	background-color: #222;
-	vertical-align: center;
 	position: absolute;
 	left: 0; 
 	right: 0; 
 	bottom: 0;
 	height: 80px;
+
 }
 
 

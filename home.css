@@ -36,6 +36,7 @@ img {
 }
 #last_para_intro {
 	margin-bottom: 50px;
+	font-size: 20px;
 }
 q {
 	font-family: "Times", "Arial", sans-serif;
@@ -49,4 +50,19 @@ q {
 	font-style: italic;
 	color: #e59f09;
 	text-align: right;
+}
+
+@media (max-width: 500px) {
+	img {
+		width: 35%;
+	}
+	#first_para_intro {
+		font-size: 10px;
+	}
+	#last_para_intro {
+		font-size: 10px;
+	}
+	q {
+		font-size: 13px;
+	}
 }

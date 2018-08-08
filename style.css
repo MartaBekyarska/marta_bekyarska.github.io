@@ -7,7 +7,7 @@ body {
 	/*background-image: url("images/tube.jpg");*/
 	background-color: black;
 	background-size: cover;
-	/*background-repeat: no-repeat;*/
+	background-repeat: no-repeat;
 	font-family: Arial, Helvetica;
 }
 #navigation {
@@ -23,11 +23,7 @@ body {
 
 
 .nav {
-	padding-top: 0px;
-	padding-right: 40px;
-	padding-left: 40px;
-
-
+	padding: 0px 40px 0 40px;
 }
 
 .navbar-inverse .navbar-nav>.active>a, 
@@ -49,8 +45,7 @@ body {
 .navbar-inverse .navbar-brand {
 	color: red;
 	height: 100px;
-	padding-bottom: 5px;
-	padding-top: 55px;
+	padding: 55px 0px 5px 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	font-size: 36px;
@@ -66,7 +61,7 @@ p {
 #github{
 	color: white;
 	font-size: 40px;
-	padding-right: 10px;
+	padding: 0px 10px 0px 0px;
 }
 
 #github:hover{
@@ -101,7 +96,21 @@ p {
 	height: 80px;
 
 }
-
+@media (max-width: 500px) {
+	.navbar-brand {
+		font-size: 13px;
+	}
+	.navbar-inverse .navbar-brand {
+	font-size: 18px;
+}
+	.nav {
+		display: block;
+		padding: 5px;
+	}
+	.navbar-inverse .navbar-nav>li>a {
+		font-size: 12px;
+	}
+}
 
 
 

@@ -37,13 +37,13 @@ body {
 .navbar-inverse .navbar-nav>li>a {
 	padding-top: 50px;
 	background-color: #010521;
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 35px;
 
 }
 
 .navbar-inverse .navbar-brand {
-	color: red;
+	color: #f44141;
 	height: 100px;
 	padding: 55px 0px 5px 0px;
 	margin-top: 0px;
